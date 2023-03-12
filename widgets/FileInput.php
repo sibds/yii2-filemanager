@@ -2,8 +2,8 @@
 namespace pendalf89\filemanager\widgets;
 
 use Yii;
-use yii\helpers\Html;
-use yii\widgets\InputWidget;
+use yii\bootstrap5\Html;
+use yii\bootstrap5\InputWidget;
 use pendalf89\filemanager\assets\FileInputAsset;
 use yii\helpers\Url;
 
@@ -154,7 +154,7 @@ class FileInput extends InputWidget
             );
         }
 
-        $modal = $this->renderFile('@vendor/pendalf89/yii2-filemanager/views/file/modal.php', [
+        $modal = $this->renderFile('@vendor/sibds/yii2-filemanager/views/file/modal.php', [
             'inputId' => $this->options['id'],
             'btnId' => $this->buttonOptions['id'],
             'frameId' => $this->options['id'] . '-frame',
