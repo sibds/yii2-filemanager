@@ -2,7 +2,7 @@
 namespace pendalf89\filemanager\widgets;
 
 use Yii;
-use yii\widgets\InputWidget;
+use yii\bootstrap5\InputWidget;
 use yii\web\JsExpression;
 use pendalf89\filemanager\assets\FileInputAsset;
 use \dosamigos\tinymce\TinyMce as TinyMceWidget;
