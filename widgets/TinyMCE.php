@@ -5,7 +5,7 @@ use Yii;
 use yii\widgets\InputWidget;
 use yii\web\JsExpression;
 use pendalf89\filemanager\assets\FileInputAsset;
-use pendalf89\tinymce\TinyMce as TinyMceWidget;
+use \dosamigos\tinymce\TinyMce as TinyMceWidget;
 use yii\helpers\Url;
 
 class TinyMce extends InputWidget
@@ -14,6 +14,8 @@ class TinyMce extends InputWidget
      * @var string Optional, if set, only this image can be selected by user
      */
     public $thumb = '';
+    
+    public $language = 'ru';
 
     /**
      * @var string JavaScript function, which will be called before insert file data to input.
@@ -60,6 +62,7 @@ class TinyMce extends InputWidget
         $this->tinyMCE = TinyMceWidget::widget([
             'name' => $this->name,
             'model' => $this->model,
+            'language' => $this->language,
             'attribute' => $this->attribute,
             'value' => $this->value,
             'clientOptions' => $this->clientOptions,
