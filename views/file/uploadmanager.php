@@ -1,7 +1,7 @@
 <?php
 use dosamigos\fileupload\FileUploadUI;
 use pendalf89\filemanager\Module;
-use yii\helpers\Html;
+use yii\bootstrap5\Html;
 
 /* @var $this yii\web\View */
 /* @var $searchModel pendalf89\filemanager\models\Mediafile */
