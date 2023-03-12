@@ -17,7 +17,7 @@
         "2amigos/yii2-tinymce-widget": "~1.1",
         "kartik-v/yii2-widget-alert": "*",
         "kartik-v/yii2-widget-select2": "*",
-        "2amigos/yii2-file-upload-widget": "*"
+        "2amigos/yii2-file-upload-widget": "~1.0"
     },
     "autoload": {
         "psr-4": {
