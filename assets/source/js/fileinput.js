@@ -1,5 +1,5 @@
 function filemanagerTinyMCE(callback, value, meta) {
-    var inputId = tinymce.activeEditor.settings.id,
+    var inputId = tinymce.activeEditor.id,
         modal = $('[data-btn-id="' + inputId + '-btn"]'),
         iframe = $('<iframe src="' + modal.attr("data-frame-src")
             + '" id="' + modal.attr("data-frame-id") + '" frameborder="0" role="filemanager-frame"></iframe>');
