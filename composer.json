@@ -14,7 +14,7 @@
     "require": {
         "yiisoft/yii2": "*",
         "yiisoft/yii2-imagine": "*",
-        "pendalf89/yii2-tinymce": "*",
+        "amigos/yii2-tinymce-widget": "~1.1",
         "kartik-v/yii2-widget-alert": "*",
         "kartik-v/yii2-widget-select2": "*",
         "2amigos/yii2-file-upload-widget": "*"
