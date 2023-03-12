@@ -35,8 +35,8 @@ $this->params['moduleBundle'] = FilemanagerAsset::register($this);
     ]) ?>
 
     <div class="dashboard">
-        <p><?= Html::a('<span class="glyphicon glyphicon-upload"></span> ' . Module::t('main', 'Upload manager'),
-                ['file/uploadmanager'], ['class' => 'btn btn-default']) ?></p>
+        <p><?= Html::a('<span class="fa fa-upload"></span> ' . Module::t('main', 'Upload manager'),
+                ['file/uploadmanager'], ['class' => 'btn btn-primary']) ?></p>
         <div id="fileinfo">
 
         </div>
