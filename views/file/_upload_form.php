@@ -1,6 +1,6 @@
 <?php
 /** @var \dosamigos\fileupload\FileUploadUI $this */
-use yii\helpers\Html;
+use yii\bootstrap5\Html;
 use yii\helpers\ArrayHelper;
 use pendalf89\filemanager\models\Tag;
 
